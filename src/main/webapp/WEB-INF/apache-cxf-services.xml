@@ -9,7 +9,7 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 	<jaxws:endpoint id="musicservice"
-		implementor="com.jaxws.series.td.spring.hibernate.service.MusicServiceImpl"
+		implementor="com.demo.soap.cxf.service.MusicServiceImpl"
 		address="/music">
 	</jaxws:endpoint>
 

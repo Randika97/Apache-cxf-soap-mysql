@@ -1,4 +1,4 @@
-package com.jaxws.series.td.spring.hibernate.service;
+package com.demo.soap.cxf.service;
 
 
 import in.benchresources.entities.music.*;
@@ -8,7 +8,7 @@ import java.util.List;
 import javax.jws.WebService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.context.support.SpringBeanAutowiringSupport;
-import com.jaxws.series.td.spring.hibernate.dao.MusicDAO;
+import com.demo.soap.cxf.dao.MusicDAO;
 
 @WebService(serviceName="MusicService", endpointInterface="in.benchresources.services.musicservice.IMusicService",
 targetNamespace="http://benchresources.in/services/MusicService/", portName="MusicServicePort", name="MusicServiceImpl")

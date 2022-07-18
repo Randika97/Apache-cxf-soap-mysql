@@ -15,7 +15,7 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 			\WEB-INF\apache-cxf-services.xml,
-			classpath:com\jaxws\series\td\spring\hibernate\config\spring-hibernate-jax-ws.xml,
+			classpath:com\demo\soap\cxf\config\spring-hibernate-jax-ws.xml
 		</param-value>
 	</context-param>
 
@@ -29,7 +29,21 @@
 		<servlet-name>CXFServlet</servlet-name>
 		<url-pattern>/services/*</url-pattern>
 	</servlet-mapping>
-
+<!--	<context-param>-->
+<!--		<param-name>contextConfigLocation</param-name>-->
+<!--		<param-value>-->
+<!--			\WEB-INF\dispatcher-servlet.xml-->
+<!--		</param-value>-->
+<!--	</context-param>-->
+<!--	<servlet>-->
+<!--		<servlet-name>dispatcher</servlet-name>-->
+<!--		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>-->
+<!--		<load-on-startup>1</load-on-startup>-->
+<!--	</servlet>-->
+<!--	<servlet-mapping>-->
+<!--		<servlet-name>dispatcher</servlet-name>-->
+<!--		<url-pattern>/rest/*</url-pattern>-->
+<!--	</servlet-mapping>-->
 	<!-- session timeout -->
 	<session-config>
 		<session-timeout>60</session-timeout>

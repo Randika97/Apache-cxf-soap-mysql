@@ -66,6 +66,9 @@ public class Movie implements Serializable {
     @Column(name= "COMMENTS")
     protected String comments;
 
+    public Movie() {
+    }
+
     /**
      * Gets the value of the musicId property.
      *

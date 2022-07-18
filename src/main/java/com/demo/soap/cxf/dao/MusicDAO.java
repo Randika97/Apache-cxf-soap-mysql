@@ -1,4 +1,4 @@
-package com.jaxws.series.td.spring.hibernate.dao;
+package com.demo.soap.cxf.dao;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.jaxws.series.td.spring.hibernate.model;
+package com.demo.soap.cxf.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
